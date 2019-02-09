@@ -147,12 +147,6 @@ let g:syntastic_enable_signs=0
 
 let syntastic_mode_map = { 'passive_filetypes': ['html', 'less'] }
 let g:syntastic_python_checkers=['pyflakes']
-let g:syntastic_javascript_checkers=['jshint']
-
-" JSXHint, used for React JSX files
-if executable('jsxhint')
-  let g:syntastic_javascript_checkers=['jsxhint']
-endif
 
 " Virtualenvs
 let g:virtualenv_auto_activate = 1

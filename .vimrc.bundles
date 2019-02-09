@@ -43,19 +43,8 @@ Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'groenewege/vim-less'
 Bundle 'nono/vim-handlebars'
 
-" vim-javascript comes with better indentation (yay!) but uglier syntax
-" highlighting (boo), so we use a custom fork
-Bundle 'thomasboyt/vim-javascript'
-
-" Tmux integration
-Bundle 'benmills/vimux'
-Bundle 'dcosson/vimux-nose-test2'
-
 " Comments plugin, comment/uncomment line (gcc) or lines (vis select, then gc)
 Bundle 'tomtom/tcomment_vim'
-
-" Puppet niceties
-Bundle 'rodjek/vim-puppet'
 
 " Automatically align text
 Bundle 'godlygeek/tabular'
@@ -68,3 +57,9 @@ Bundle 'vim-scripts/vim-vagrant'
 
 " Mocha `only` helper
 Bundle 'muffs/wap-it'
+
+" Dracula Coloring
+Plugin 'dracula/vim'
+
+" Autocompletion
+Plugin 'Valloric/YouCompleteMe'
