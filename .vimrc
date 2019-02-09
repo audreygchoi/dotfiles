@@ -191,7 +191,6 @@ function! ToggleErrors()
 endfunction
 
 " Shortcuts for vim nose tests
-let g:vimux_nose_setup_cmd="vagrant ssh; if [ -d /ebs/appvenmo/venmo_tests ] ; then cd /ebs/appvenmo/venmo_tests; else cd /vagrant; fi"
 map ,rs :call VimuxRunNoseSetup()<CR>
 map ,ri :call VimuxInspectRunner()<CR>
 map ,rc :call VimuxCloseRunner()<CR>
